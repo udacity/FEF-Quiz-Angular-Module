@@ -1,0 +1,29 @@
+[{
+  "name": "Module Quiz",
+  "code": "eb6e6f6f#6",
+  "tests": [
+    {
+      "description": "legoBricks script tag exists",
+      "definition": {
+        "nodes": "script",
+        "attribute": "src",
+        "equals": "scripts/legoBricks.js",
+        "limit": 1
+      }
+    },
+    {
+      "description": "legoBricks module has been created",
+      "definition": {
+        "waitForEvent": "legoBricks-module-exists",
+        "exists": true
+      }
+    },
+    {
+      "description": "legoBricks module is a dependency of newModuleQuizApp",
+      "definition": {
+        "waitForEvent": "module-requires-legoBricks",
+        "exists": true
+      }
+    }
+  ]
+}]
