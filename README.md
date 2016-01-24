@@ -1,4 +1,4 @@
-# Quiz - Angular Controllers
+# Quiz - Angular Module
 
 Starter code for [Udacity](https://www.udacity.com)'s [Front End Frameworks course](https://www.udacity.com/course/front-end-frameworks--ud894).
 
