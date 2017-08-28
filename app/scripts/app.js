@@ -10,3 +10,5 @@
  */
 angular
   .module('newModuleQuizApp', []);
+angular
+  .module('legoBricks',['newModuleQuizApp']);
